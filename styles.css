@@ -1,5 +1,5 @@
 body{
-    font-family: Arial,  sans-serif;
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 form{
     display:flex;
@@ -32,7 +32,7 @@ button:hover{
 
 // code challenge 2
 body {
-    font-family: Arial, sans-serif;
+    font: 1em sans-serif;
 }
 form {
     display: flex;

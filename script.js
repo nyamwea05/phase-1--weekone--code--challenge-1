@@ -1,4 +1,4 @@
-const form = document.querySelector('form');
+const document= document.querySelector('form');
 		const resultDiv = document.querySelector('#result');
 
 		form.addEventListener('submit', event => {
