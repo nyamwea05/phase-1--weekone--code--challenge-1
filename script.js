@@ -1,7 +1,7 @@
-const document= document.querySelector('form');
+let form = document.querySelector('form');
 		const resultDiv = document.querySelector('#result');
 
-		form.addEventListener('submit', event => {
+		document.addEventListener('submit', event => {
 			event.preventDefault();
 			const marks = Number(document.querySelector('#marks').value);
 			let grade;
@@ -26,7 +26,7 @@ const document= document.querySelector('form');
 		const forms= document.querySelector('forms');
 		const pointsParagraph = document.querySelector('#points');
 
-		forms.addEventListener('submit', event => {
+		document.addEventListener('submit', event => {
 			event.preventDefault();
 			const speed = Number(document.querySelector('#speed').value);
 			let points = 0;
@@ -47,10 +47,11 @@ const document= document.querySelector('form');
 
 
 		//code challenge 3
-		const form = document.querySelector('form');
+		//let form = document.querySelector('form');
 		const grossSalary = document.querySelector('#gross-salary');
 		const payee = document.querySelector('#payee');
 		const nhif = document.querySelector('#nhif');
 		const nssf = document.querySelector('#nssf');
 		const netSalary = document.querySelector('#net-salary');
 		const warning = document.querySelector('#warning');
+		
